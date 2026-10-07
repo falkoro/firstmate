@@ -1,0 +1,56 @@
+=== ended=no (new)
+CAPTAIN MESSAGE
+CAPTAIN MESSAGE PART 1 of 3
+| first comment
+CAPTAIN MESSAGE PART 2 of 3
+| second comment
+CAPTAIN MESSAGE PART 3 of 3
+| third comment
+END CAPTAIN MESSAGE
+
+declared_items: 4
+presented_items: 4
+malformed_items: 0
+complete: yes
+lifecycle: feedback
+session_ended: (unset)
+annotation_count: 1
+captain_message_count: 3
+
+ANNOTATIONS
+ANNOTATION 1 of 1
+element_uid: el-a
+element_selector: aside.sidebar
+tag: note
+text:
+| Sidebar note
+END ANNOTATIONS
+END LAVISH RESULT (4 of 4)
+=== ended=yes (new)
+SESSION-ENDING MESSAGE
+SESSION-ENDING MESSAGE PART 1 of 3
+| first comment
+SESSION-ENDING MESSAGE PART 2 of 3
+| second comment
+SESSION-ENDING MESSAGE PART 3 of 3
+| third comment
+END SESSION-ENDING MESSAGE
+
+declared_items: 4
+presented_items: 4
+malformed_items: 0
+complete: yes
+lifecycle: feedback
+session_ended: true
+annotation_count: 1
+session_ending_message_count: 3
+
+ANNOTATIONS
+ANNOTATION 1 of 1
+element_uid: el-a
+element_selector: aside.sidebar
+tag: note
+text:
+| Sidebar note
+END ANNOTATIONS
+END LAVISH RESULT (4 of 4)
