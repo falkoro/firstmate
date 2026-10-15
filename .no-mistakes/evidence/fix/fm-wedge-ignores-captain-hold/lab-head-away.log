@@ -1,0 +1,6 @@
+[head-3e6f7c4-away] pane: grok  capture: Captain-only dialog: approve the production migration? [y/N]
+[head-3e6f7c4-away] captain hold open: 2026-10-15T08:38:21Z#0
+yes
+[head-3e6f7c4-away] away-posture record written
+[head-3e6f7c4-away] total wakes in 30s (escalate threshold 3s): 0
+[head-3e6f7c4-away] wedge escalation counter: none

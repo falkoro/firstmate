@@ -1,0 +1,10 @@
+[base-expired-pause] pane: grok  capture: Captain-only dialog: approve the production migration? [y/N]
+[base-expired-pause] captain hold open: 2026-10-15T08:39:10Z#0
+yes
+[base-expired-pause] t+9s wake: stale: lab:fm-wedge (idle 4s, possible wedge, escalation 1)
+[base-expired-pause] t+14s wake: stale: lab:fm-wedge (idle 3s, possible wedge, escalation 2)
+[base-expired-pause] t+19s wake: stale: lab:fm-wedge (idle 3s, possible wedge, escalation 3, demand-deep-inspection: same pane has wedge-escalated 3 times in a row - do not re-absorb on the run-step/pane state alone)
+[base-expired-pause] t+24s wake: stale: lab:fm-wedge (idle 3s, possible wedge, escalation 4, demand-deep-inspection: same pane has wedge-escalated 4 times in a row - do not re-absorb on the run-step/pane state alone)
+[base-expired-pause] t+30s wake: stale: lab:fm-wedge (idle 3s, possible wedge, escalation 5, demand-deep-inspection: same pane has wedge-escalated 5 times in a row - do not re-absorb on the run-step/pane state alone)
+[base-expired-pause] total wakes in 30s (escalate threshold 3s): 5
+[base-expired-pause] wedge escalation counter: 5

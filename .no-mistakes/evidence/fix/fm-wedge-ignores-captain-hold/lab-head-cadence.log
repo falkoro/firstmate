@@ -1,0 +1,8 @@
+[head-cadence] pane: grok  capture: Captain-only dialog: approve the production migration? [y/N]
+[head-cadence] captain hold open: 2026-10-15T08:39:10Z#0
+yes
+[head-cadence] t+9s wake: stale: lab:fm-wedge (idle 3s - captain hold, awaiting the captain - held in the backlog, rechecked on a long cadence not a wedge; answer the held decision or release the hold)
+[head-cadence] t+24s wake: stale: lab:fm-wedge (idle 3s - captain hold, awaiting the captain - held in the backlog, rechecked on a long cadence not a wedge; answer the held decision or release the hold)
+[head-cadence] t+39s wake: stale: lab:fm-wedge (idle 3s - captain hold, awaiting the captain - held in the backlog, rechecked on a long cadence not a wedge; answer the held decision or release the hold)
+[head-cadence] total wakes in 40s (escalate threshold 3s): 3
+[head-cadence] wedge escalation counter: none

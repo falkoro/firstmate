@@ -1,0 +1,8 @@
+[head-nohold] pane: grok  capture: Captain-only dialog: approve the production migration? [y/N]
+[head-nohold] captain hold open: 
+[head-nohold] t+9s wake: stale: lab:fm-wedge (idle 3s, possible wedge, escalation 1)
+[head-nohold] t+15s wake: stale: lab:fm-wedge (idle 3s, possible wedge, escalation 2)
+[head-nohold] t+20s wake: stale: lab:fm-wedge (idle 3s, possible wedge, escalation 3, demand-deep-inspection: same pane has wedge-escalated 3 times in a row - do not re-absorb on the run-step/pane state alone)
+[head-nohold] t+26s wake: stale: lab:fm-wedge (idle 3s, possible wedge, escalation 4, demand-deep-inspection: same pane has wedge-escalated 4 times in a row - do not re-absorb on the run-step/pane state alone)
+[head-nohold] total wakes in 30s (escalate threshold 3s): 4
+[head-nohold] wedge escalation counter: 4
