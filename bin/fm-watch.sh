@@ -1243,7 +1243,9 @@ wait_record() {  # <kind> <subject> <whom> <action> <age-record>
 # transfer - and, when that line explains nothing, the crew's authoritative
 # current state. Between them sits the backlog record of the same captain hold
 # (task_captain_call_open), which a worker's line never shows once firstmate
-# hands the call to the captain; it is read only here, at the threshold.
+# hands the call to the captain; it is read only here, at the threshold. That
+# line predates the hold, so it is no record of when the hold began and the hold
+# publishes no wait age.
 #
 # The generated brief promises that declaring one buys the long recheck cadence
 # instead of a wedge, and the wedge timer is reachable while that declaration
@@ -1331,7 +1333,7 @@ wedge_wait_evidence() {  # <task> -> one wait_record on stdout
   fi
   if task_captain_call_open "$task"; then
     wait_record "$WEDGE_BACKLOG_HOLD_KIND" 'awaiting the captain - held in the backlog' \
-      captain 'answer the held decision or release the hold' "$statusf"
+      captain 'answer the held decision or release the hold' ''
     return 0
   fi
   [ -e "$CONFIG/wedge-defer-parked-gate" ] || return 1
